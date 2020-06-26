@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="NVIC_ST_CTRL_R" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="NVIC_ST_CTRL_R"/>
+			<item value="GPIO_PORTB_AFSEL_R"/>
+			<item value="GPIO_PORTB_AMSEL_R"/>
+			<item value="GPIO_PORTB_CR_R"/>
+			<item value="GPIO_PORTB_LOCK_R"/>
+			<item value="SYSCTL_RCGC2_R"/>
+			<item value="Switch2"/>
+			<item value="Switch1"/>
+			<item value="RED_light"/>
+			<item value="GREEN_light"/>
+			<item value="seconds"/>
+			<item value="SysCtlPeripheralEnable"/>
+			<item value="GPIO_O_LOCK"/>
+			<item value="GPIO_0_LOCK"/>
+			<item value="GPIO_PIN_4"/>
+		</list>
+		<list key="replacehistory">
+			<item value="SW2"/>
+			<item value="SW1"/>
+			<item value="RED_LED"/>
+			<item value="GREEN_LED"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="327" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-30|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="436" key="DIALOG_HEIGHT"/>
+		<item value="232" key="DIALOG_X_ORIGIN"/>
+		<item value="275" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

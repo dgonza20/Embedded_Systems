@@ -1,0 +1,25 @@
+
+**** Build of configuration Debug for project lab1 ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k all 
+ 
+Building target: "lab1.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --advice:power=all -g --gcc --define=ccs="ccs" --define=PART_TM4C123GH6PM --define=TARGET_IS_TM4C123_RB1 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --ual -z -m"blinky_ccs.map" --stack_size=512 --heap_size=0 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab1_linkInfo.xml" --rom_model -o "lab1.out" "./lab1.obj" "./startup_ccs.obj" "../blinky_ccs.cmd"  -llibc.a -l"C:/ti/tivaware_c_series_2_1_4_178/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+ undefined   first referenced
+ 
+>> Compilation failure
+makefile:142: recipe for target 'lab1.out' failed
+  symbol         in file     
+ ---------   ----------------
+ ButtonsInit ./lab1.obj      
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "lab1.out" not built
+gmake: *** [lab1.out] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
